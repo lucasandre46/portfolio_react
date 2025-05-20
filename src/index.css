@@ -5,9 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
+  background: linear-gradient(90deg,
+            rgba(24, 37, 119, 1) 0%,
+            rgba(42, 74, 185, 1) 25%,
+            rgba(80, 191, 22, 1) 50%,
+            rgba(42, 74, 185, 1) 75%,
+            rgba(24, 37, 119, 1) 100%);
+    background-size: 200% 100%;
+  
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik+Mono+One&family=Special+Gothic+Condensed+One&display=swap');
+
+:root{
+    --fontP:"Special Gothic Condensed One";
+    --fontS:"Josefin Sans";
+}
+
+
